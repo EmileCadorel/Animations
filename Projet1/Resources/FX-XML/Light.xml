@@ -1,0 +1,19 @@
+<ShaderFile>
+  <Shader File="Resources/FX/Light.fx"/>
+  <Tech name="LightTechnique"/>
+  <Layout>
+    <layer name="POSITION"/>
+    <layer name="NORMALS"/>
+    <layer name="TEXCOORD"/>
+  </Layout>
+  <Variables>
+    <var type="mat" name="world"/>
+    <var type="mat" name="projection"/>
+    <var type="mat" name="view"/>
+    <var type="vec" name="eyePos"/>
+    <var type="vec" name="ambiant"/>
+    <var type="resource" name="shaderTexture"/>
+    <var type="struct" name="mater"/>
+    <var type="struct" name="light"/>
+  </Variables>
+</ShaderFile>

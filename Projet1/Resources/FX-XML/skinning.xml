@@ -1,0 +1,23 @@
+<ShaderFile>
+  <Shader File="Resources/FX/Skinning.fx"/>
+  <Tech name="SkinningTech"/>
+  <Layout>
+    <layer name="POSITION"/>
+    <layer name="NORMALS"/>
+    <layer name="TEXCOORD"/>
+    <layer name="WEIGHTS"/>
+    <layer name="BONEINDICES"/>
+  </Layout>
+  <Variables>
+    <var type="mat" name="world"/>
+    <var type="mat" name="view"/>
+    <var type="mat" name="projection"/>
+    <var type="struct" name="mater"/>
+    <var type="struct" name="light"/>
+    <var type="vec" name="eyePos"/>
+    <var type="vec" name="ambiant"/>
+    <var type="resource" name="shaderTexture"/>
+    <var type="mat" name="boneTransforms"/>
+    <var type="scalar" name="nbBones"/>
+  </Variables>
+</ShaderFile>

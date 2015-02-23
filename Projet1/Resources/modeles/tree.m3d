@@ -1,0 +1,55 @@
+***************m3d-File-Header***************
+#Materials 1
+#Vertices 6
+#Triangles 2
+#Bones 0
+#AnimationClips 0
+
+***************Materials*********************
+Ambient: 0 0 0
+Diffuse: 1 1 1
+Specular: 0 0 0
+SpecPower: 8
+Reflectivity: 0 0 0
+AlphaClip: 0
+Effect: Normal
+DiffuseMap: tree01-leaves_diffuse.dds
+NormalMap: tree01-leaves_normal.dds
+
+***************SubsetTable*******************
+SubsetID: 0 VertexStart: 0 VertexCount: 6 FaceStart: 0 FaceCount: 2
+
+***************Vertices**********************
+Position: 1.000000 -1.000000 1.000000
+Tangent: -0.2406725 0.05866166 -0.968832 1
+Normal: 0.000000 -1.000000 0.000000
+Tex-Coords: 0.000290 0.171465
+
+Position: -1.000000 -1.000000 1.000000
+Tangent: -0.2406725 0.05866166 -0.968832 1
+Normal: 0.000000 -1.000000 0.000000
+Tex-Coords: 0.171465 0.000290
+
+Position: -1.000000 -1.000000 -1.000000
+Tangent: -0.2406725 0.05866166 -0.968832 1
+Normal: 0.000000 -1.000000 0.000000
+Tex-Coords: 0.342639 0.171465
+
+Position: -1.000000 1.000000 -1.000000
+Tangent: -0.2406725 0.05866165 -0.968832 1
+Normal: 0.000000 1.000000 0.000000
+Tex-Coords: 0 0
+
+Position: -1.000000 1.000000 1.000000
+Tangent: -0.2406725 0.05866262 -0.968832 1
+Normal: 0.000000 1.000000 0.000000
+Tex-Coords: 1 0
+
+Position: 0.999999 1.000000 1.000001
+Tangent: -0.2406725 0.05866263 -0.968832 1
+Normal: 0.000000 1.000000 0.000000
+Tex-Coords: 1 1
+
+***************Triangles*********************
+0 1 2
+3 4 5
